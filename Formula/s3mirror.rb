@@ -3,9 +3,9 @@ class S3mirror < Formula
 
   desc "Mirror buckets and objects between S3-compatible endpoints"
   homepage "https://github.com/netspeedy/s3mirror"
-  url "https://github.com/netspeedy/s3mirror/archive/refs/tags/v1.0.1.tar.gz"
-  version "1.0.1"
-  sha256 "b0299d640f944c291a3df3efbafd1da9cf7f7f8c9e82d693ad9e6ac25feffa35"
+  url "https://github.com/netspeedy/s3mirror/archive/refs/tags/v1.0.2.tar.gz"
+  version "1.0.2"
+  sha256 "168e178907509159baaf400ea66cea634a971d057224424443260f6d66ff0a67"
   license "MIT"
   head "https://github.com/netspeedy/s3mirror.git", branch: "main"
 
