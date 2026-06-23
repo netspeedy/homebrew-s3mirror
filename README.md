@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/netspeedy/s3mirror/releases"><img src="https://img.shields.io/github/v/release/netspeedy/s3mirror?sort=semver&style=flat-square" alt="Release"></a>
+  <a href="https://github.com/netspeedy/s3mirror/tags"><img src="https://img.shields.io/github/v/tag/netspeedy/s3mirror?sort=semver&style=flat-square&label=release" alt="Release tag"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-2EA043?style=flat-square" alt="License"></a>
   <a href="https://github.com/netspeedy/homebrew-s3mirror"><img src="https://img.shields.io/badge/Homebrew-tap-FFDD00?style=flat-square&logo=homebrew&logoColor=black" alt="Homebrew tap"></a>
   <a href="https://github.com/netspeedy/s3mirror"><img src="https://img.shields.io/badge/source-netspeedy%2Fs3mirror-00897B?style=flat-square" alt="Source"></a>
