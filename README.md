@@ -67,7 +67,7 @@ brew untap netspeedy/s3mirror
 
 This repository only packages [`Formula/s3mirror.rb`](Formula/s3mirror.rb). The s3mirror release workflow updates it for each stable [release](https://github.com/netspeedy/s3mirror/releases). The formula installs `boto3`, `botocore`, `s3transfer`, `urllib3`, `PyYAML` and their dependencies into the virtual environment at install time. The names are listed explicitly because Homebrew installs Python packages with `--no-deps`, and the versions aren't pinned. Please open issues in the [main repository](https://github.com/netspeedy/s3mirror/issues).
 
-The banner at the top of this page and the repository's social preview image are generated. Edit the copy, layout or timing in `.github/scripts/build_readme_hero.py` and run it to rebuild `assets/s3mirror-readme-hero.svg` and `assets/s3mirror-social-preview.png`; the preview is uploaded by hand under Settings, since GitHub has no API for it. The script downloads the font subsets from Google Fonts, so it needs network access, and renders the preview with headless Chrome or Chromium.
+The banner at the top of this page and the repository's social preview image are generated. Edit the copy, layout or timing in `.github/scripts/build_readme_hero.py` and run it to rebuild `assets/s3mirror-readme-hero.svg` and `assets/s3mirror-social-preview.png`; the preview is uploaded by hand under Settings, since GitHub has no API for it. Run it with `uv run .github/scripts/build_readme_hero.py`, which installs the pinned fontTools it subsets the fonts with. The fonts come from assets.netspeedy.io, so the first run needs network access, and the preview is rendered with headless Chrome or Chromium.
 
 ## License
 
